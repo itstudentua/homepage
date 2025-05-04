@@ -60,6 +60,7 @@ body {
 
   .contact-info__block:not(:last-child) {
     margin-bottom: 20px;
+
   }
 
   .experiences {
@@ -89,6 +90,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 880px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .contact-info__block--center {
